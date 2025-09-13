@@ -1,7 +1,7 @@
 # Explore Google hacking and enumeration 
-
+## NAME:MOHAN RAJ C
+## REG NO:212223040114
 # AIM:
-
 To use Google for gathering information and perform enumeration of targets
 
 ## STEPS:
@@ -56,12 +56,46 @@ Open terminal and try execute some kali linux commands
 ```
 
 # Output:
+# SITE:
 
+<img width="1913" height="976" alt="image" src="https://github.com/user-attachments/assets/b204636d-0713-4f8e-8942-a794dd246214" />
+
+
+
+# INURL
+<img width="1916" height="972" alt="image" src="https://github.com/user-attachments/assets/cc3f26ae-8ace-49fd-a128-018b75231ca0" />
+
+
+# INTITLE
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/821b8ed8-255c-4174-81a1-2acab6f7e527" />
+
+
+
+# FILETYPE
+<img width="1911" height="970" alt="image" src="https://github.com/user-attachments/assets/c4c11c34-2384-45d7-872a-cbca749cf3e1" />
+
+
+# INTEXT
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/017b71d8-f97f-4483-9a96-2aa2b1fa226c" />
+
+
+# LINK
+<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/e10e6cdd-5def-4769-8e88-2a5f2ac9cbe2" />
+
+
+# CACHE
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/0c4a848c-d8c6-44e3-acc0-9725a2dbe979" />
+
+
+# EXT
+<img width="1919" height="974" alt="image" src="https://github.com/user-attachments/assets/6e205bfc-0cc5-447e-b4f0-644214a59805" />
 
 # DNS Enumeration
-
+<img width="682" height="786" alt="image" src="https://github.com/user-attachments/assets/6cb23fb4-2427-4765-996f-02a54678d04c" />
 
 ## DNS Recon
+<img width="624" height="498" alt="image" src="https://github.com/user-attachments/assets/61673c8e-0d4d-4c93-8aef-65dc9c5b1fbd" />
+
 
 | Record Type | Meaning                        | Example Output                   |
 | ----------- | ------------------------------ | -------------------------------- |
@@ -86,6 +120,31 @@ Open terminal and try execute some kali linux commands
 
 
 ## OUTPUT:
+# NSLOOKUP
+<img width="597" height="769" alt="image" src="https://github.com/user-attachments/assets/0771ec89-79f3-4bf3-a637-2a528d61ba51" />
+
+
+# DIG
+<img width="589" height="580" alt="image" src="https://github.com/user-attachments/assets/c7d74108-2028-41e6-88b1-30bca923c470" />
+
+
+# HOST
+<img width="558" height="390" alt="image" src="https://github.com/user-attachments/assets/466f5505-7ca2-440a-b22a-864e286aee62" />
+
+
+# DNSSENUM
+<img width="650" height="452" alt="image" src="https://github.com/user-attachments/assets/5d7f8f3c-b55b-4c92-94cd-f03bca8bf6ab" />
+
+
+# DNSRECON
+<img width="661" height="505" alt="image" src="https://github.com/user-attachments/assets/89156ffd-240d-473c-8674-c705be7a104a" />
+
+# FIERCE
+<img width="615" height="325" alt="image" src="https://github.com/user-attachments/assets/fd8872c1-1f0a-438c-b67e-33f2a2b3a8f5" />
+
+# HARVESTER
+<img width="602" height="331" alt="image" src="https://github.com/user-attachments/assets/30c868a5-8735-4cd2-b74d-91e71dc941af" />
+
 
 ## Architecture Diagram 
 ```
@@ -125,6 +184,8 @@ dnsenum example.com
 ```
 
 ## Output:
+<img width="668" height="461" alt="image" src="https://github.com/user-attachments/assets/eee4150d-b2d6-4f8f-a6e7-1ea57a4fa660" />
+
 
 
 
@@ -138,7 +199,8 @@ smtp-user-enum -M VRFY -U users.txt -t <target-ip>
 ```
   
  ## Output
-  
+<img width="702" height="359" alt="image" src="https://github.com/user-attachments/assets/64ff9a7e-e40f-42e7-8cd3-373c1872af80" />
+
 
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -151,6 +213,7 @@ smtp-user-enum -M VRFY -U users.txt -t <target-ip>
 nmap -p 25 --script smtp-enum-users.nse <target-ip>
 ```
 ## OUTPUT:
+<img width="677" height="177" alt="image" src="https://github.com/user-attachments/assets/6cc19572-672e-43e9-9ae2-0387869c92a7" />
 
 
 
